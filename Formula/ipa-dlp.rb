@@ -11,6 +11,11 @@ class IpaDlp < Formula
   depends_on :macos
   depends_on "python@3.14"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   def install
     bin.install "ipa-dlp"
     rewrite_shebang detected_python_shebang, bin/"ipa-dlp"
