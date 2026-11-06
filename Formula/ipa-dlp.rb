@@ -8,13 +8,13 @@ class IpaDlp < Formula
   license "MIT"
   head "https://github.com/bejminliou/ipa-dlp.git", branch: "main"
 
-  depends_on :macos
-  depends_on "python@3.14"
-
   livecheck do
     url :stable
     strategy :github_latest
   end
+
+  depends_on :macos
+  depends_on "python@3.14"
 
   def install
     bin.install "ipa-dlp"
