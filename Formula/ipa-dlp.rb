@@ -3,8 +3,8 @@ class IpaDlp < Formula
 
   desc "Fetch and decrypt App Store IPAs for apps your Apple ID owns"
   homepage "https://github.com/ipakit/ipa-dlp"
-  url "https://github.com/ipakit/ipa-dlp/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "15bd33cecd5b72d53ea2288233f546f8d3597120fa238555c9e46dd5771acc7b"
+  url "https://github.com/ipakit/ipa-dlp/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "78b9c17187d7b2fdfe66dfd67ed253c7b2a52342f4d722274419711cccff93ec"
   license "MIT"
   head "https://github.com/ipakit/ipa-dlp.git", branch: "main"
 
@@ -34,6 +34,6 @@ class IpaDlp < Formula
   end
 
   test do
-    assert_match "ipa-dlp 0.2.0", shell_output("#{bin}/ipa-dlp --version")
+    assert_match(/ipa-dlp \d+\.\d+\.\d+/, shell_output("#{bin}/ipa-dlp --version"))
   end
 end
