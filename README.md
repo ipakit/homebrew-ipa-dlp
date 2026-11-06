@@ -1,6 +1,6 @@
 # homebrew-ipa-dlp
 
-Homebrew tap for [ipa-dlp](https://github.com/bejminliou/ipa-dlp) — a macOS
+Homebrew tap for [ipa-dlp](https://github.com/ipakit/ipa-dlp) — a macOS
 wrapper around [ipatool](https://github.com/majd/ipatool) and
 [UnfairPlay](https://github.com/DrWhax/unfairplay) that downloads and decrypts
 App Store IPAs for apps your Apple ID owns.
@@ -8,12 +8,12 @@ App Store IPAs for apps your Apple ID owns.
 ## Install
 
 ```sh
-brew tap bejminliou/ipa-dlp
+brew tap ipakit/ipa-dlp
 brew install ipa-dlp
 ```
 
 If Homebrew complains that the tap is untrusted (some Homebrew 7 builds gate
-third-party taps), run `brew trust bejminliou/ipa-dlp` and retry.
+third-party taps), run `brew trust ipakit/ipa-dlp` and retry.
 
 Then create the pinned tool copies and sign in:
 
@@ -47,7 +47,7 @@ brew update && brew upgrade ipa-dlp
 
 ```sh
 brew uninstall ipa-dlp
-brew untap bejminliou/ipa-dlp
+brew untap ipakit/ipa-dlp
 ```
 
 Removing the formula does not delete anything ipa-dlp wrote under
@@ -59,5 +59,5 @@ clean slate.
 
 Apple Silicon Mac, macOS with a working App Store / FairPlay enrollment, and an
 Apple ID that owns or can obtain the requested apps. See the
-[main README](https://github.com/bejminliou/ipa-dlp#readme) for limitations and
+[main README](https://github.com/ipakit/ipa-dlp#readme) for limitations and
 legal notes.

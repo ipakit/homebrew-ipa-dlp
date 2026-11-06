@@ -2,11 +2,11 @@ class IpaDlp < Formula
   include Language::Python::Shebang
 
   desc "Fetch and decrypt App Store IPAs for apps your Apple ID owns"
-  homepage "https://github.com/bejminliou/ipa-dlp"
-  url "https://github.com/bejminliou/ipa-dlp/archive/refs/tags/v0.2.0.tar.gz"
+  homepage "https://github.com/ipakit/ipa-dlp"
+  url "https://github.com/ipakit/ipa-dlp/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "15bd33cecd5b72d53ea2288233f546f8d3597120fa238555c9e46dd5771acc7b"
   license "MIT"
-  head "https://github.com/bejminliou/ipa-dlp.git", branch: "main"
+  head "https://github.com/ipakit/ipa-dlp.git", branch: "main"
 
   livecheck do
     url :stable
