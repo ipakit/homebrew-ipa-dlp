@@ -9,9 +9,11 @@ App Store IPAs for apps your Apple ID owns.
 
 ```sh
 brew tap bejminliou/ipa-dlp
-brew trust bejminliou/ipa-dlp   # Homebrew 7+ asks before loading a third-party tap
 brew install ipa-dlp
 ```
+
+If Homebrew complains that the tap is untrusted (some Homebrew 7 builds gate
+third-party taps), run `brew trust bejminliou/ipa-dlp` and retry.
 
 Then create the pinned tool copies and sign in:
 
