@@ -29,14 +29,6 @@ ipa-dlp get spotify --version 9.1.88
 
 The final path is printed on stdout. Account data is stripped by default.
 
-## Double-clickable wizard
-
-```sh
-mkdir -p ~/Applications
-cp "$(brew --prefix)/opt/ipa-dlp/share/ipa-dlp/ipa-dlp.command" ~/Applications/
-chmod +x ~/Applications/ipa-dlp.command
-```
-
 ## Upgrade
 
 ```sh
