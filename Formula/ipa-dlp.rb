@@ -3,8 +3,8 @@ class IpaDlp < Formula
 
   desc "Fetch and decrypt App Store IPAs for apps your Apple ID owns"
   homepage "https://github.com/ipakit/ipa-dlp"
-  url "https://github.com/ipakit/ipa-dlp/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "aa4194db6e0951509dba81937b02395357e38536c9e3e0cadbe98a1c826440fc"
+  url "https://github.com/ipakit/ipa-dlp/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "cbe7a9f158367d9bd81b935f18e7ca3469196d747ef74136d58df139b9422105"
   license "MIT"
   head "https://github.com/ipakit/ipa-dlp.git", branch: "main"
 
